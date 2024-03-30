@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <AssemblyName>Client</AssemblyName>
+    <EnableDefaultContentItems>false</EnableDefaultContentItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/Store.fs" />
+    <Compile Include="src/Helper.fs" />
+    <Compile Include="src/Router.fs" />
+    <Compile Include="src/LayoutView.fs" />
+    <Compile Include="src/User.fs" />
+    <Compile Include="src/Users.fs" />
+    <Compile Include="src/App.fs" />
+  </ItemGroup>
+  <Import Project=".paket\Paket.Restore.targets" />
+</Project>

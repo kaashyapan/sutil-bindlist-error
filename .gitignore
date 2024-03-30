@@ -1,0 +1,11 @@
+/node_modules/
+/fable_modules/
+/dist/
+/.vscode/
+/.fable/
+/bin/
+/obj/
+.DS_Store
+/.ionide/
+*.fs.js
+*.fs.d.ts

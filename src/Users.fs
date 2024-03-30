@@ -61,6 +61,7 @@ let usersIndex =
                     onMount
                         (fun _ ->
                             loading <~ true
+                            printfn "%A" "Mount"
 
                             promise { return! Promise.sleep 2000 }
                             |> Promise.map (fun _ ->
